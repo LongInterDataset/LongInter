@@ -1,5 +1,22 @@
 # LongInter Dataset
 
+This is the repository for the paper:
+> **LongInter: A Large and Diverse Benchmark for Long-term Human-Human Interactions**
+> 
+> [Hang Gao](https://www.linkedin.com/in/hang-gao-725986307/?originalSubdomain=au), [Zeyu Zhang](https://steve-zeyu-zhang.github.io), [Yuedong (Donny) Chen](https://donydchen.github.io/), Weiqiang Wang, Weijie Wang, Xiaolong Shen, [Jianfei Cai](https://jianfei-cai.github.io/)
+> 
+> ### [Paper]() | [LongInter Benchmark]()
+
+## Citation
+
+If you use any content of this repo for your work, please cite the following our paper:
+```
+
+```
+
+## Introduction
+Human-human interaction is fundamental to social behavior, with prolonged dyadic motions frequently observed in real-world scenarios such as dancing, sparring, and collaborative activities. These interactions are characterized by both long temporal duration, multi-stage and inter-person dependencies. However, existing datasets lack long-term dual-human sequences, and current 3D motion generation models struggle to capture long-range temporal dependencies in such settings.In this work, we present LongInter Benchmark: the first large-scale dataset focused on long-term human-human interactions. We collect high-quality 3D motion sequences by retrieving and transitioning existing short motions using retrieval-augmented generation and transition inference strategies. We apply rigorous filtering criteria to ensure motion realism and consistency. Additionally, we provide rich, extended textual annotations by summarizing short-sequence captions using large language models, resulting in a curated dataset of 7.7K interaction sequences and 9.8 million frames. To systematically evaluate the challenges and progress of this task, we first conduct performance benchmarking using representative SOTA models from short-sequence motion generation on our constructed dataset. Building upon the evaluation results, we design and introduce a new baseline model specifically tailored for modeling long-term, multi-stage human-human interactions.
+
 ## Demo Visualization
 
 <table>
